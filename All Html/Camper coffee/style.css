@@ -1,0 +1,41 @@
+body{
+    background:url(image/beans.jpg);
+}
+.container{
+    width: 80%;
+    /* border: 2px solid red; */
+    height: auto;
+    margin: 20px 130px;
+    background-color: #fdd095;
+    padding: 10px 0px;
+}
+.upr{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.underline{
+    font-size: 2.5rem;
+    padding: 0px 10px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.item{
+    font-family:sans-serif;
+    padding: 0px 2%;
+}
+span{
+    float: right;
+    padding: 0px 20px;
+    font-size: 1.1rem
+}
+.hedline{
+   
+    border: 2px solid black;
+    width: 85%;
+    margin: auto;
+}
+footer{
+    text-align: center;
+}

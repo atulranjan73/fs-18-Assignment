@@ -1,0 +1,16 @@
+.navbar  {
+    height:60px;
+    border: 2px solid red;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+  
+
+} 
+.navbar img{
+    width: 100px;
+
+}
+.navbar li{
+    text-align: center;
+}

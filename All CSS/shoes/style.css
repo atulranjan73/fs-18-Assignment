@@ -27,7 +27,7 @@
 
 }
 .navbar a{
-    margin: 35px;
+    margin: 25px;
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
@@ -75,9 +75,10 @@
     width: 300px;
     border-radius: 50%;
 }
-.bord-image :hover {
-  background-color: red;
-  width: 100px;
+.bord-image img:hover {
+    position: relative;
+    width: 400px;
+    margin-left:10%;
     
 }
 

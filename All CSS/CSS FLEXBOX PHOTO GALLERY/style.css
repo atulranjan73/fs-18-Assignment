@@ -10,7 +10,7 @@
     background-color: #0a0a23;
     color: #fff;
     border-bottom: 10px solid #fd7e47;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
 
 }
@@ -32,11 +32,11 @@ h1 {
     gap: 16px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 50px 10px;
+    padding: 10px 10px;
 }
 .image img{
     width: 100%;
-    max-width: 350px;
+    max-width: 380px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;

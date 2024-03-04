@@ -42,7 +42,7 @@ nav ul a{
     text-decoration: none;
 }
 .hamburger{
-    display: none;
+    display: none;  
 }
 .hero{
     display: flex;
@@ -58,13 +58,13 @@ nav ul a{
 }
 .main-hero h1{
     font-size: 60px;
+    text-shadow: 4px 4px #000000;
 }
 .main-hero p{
-    /* margin-top: 15px; */
     font-size: 20px;
 }
 .main-hero button{
-    height: 50px;
+    height: 48px;
     width: 20%;
     margin-top: 30px;
     font-size: 15px;
@@ -72,10 +72,10 @@ nav ul a{
 .main-hero button:hover{
     background-color: transparent;
     cursor: pointer;
-    color: #fff;
     border: 1.5px solid #fff;
     border-radius: 5px;
     transition: .2s ease;
+    background-color: rgb(240, 225, 92);
 }
 
 
@@ -205,5 +205,60 @@ nav ul a{
     }
     .messsages{
         width: 40%;
+    }
+}
+@media screen and (max-width:450px){
+
+
+    .nav-left{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .main-hero h1{
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .main-hero p{
+        font-size: 15px;
+    }
+    .main-hero button{
+        width: 45%;
+    }
+
+    .service-boxes{
+       display: flex;
+       flex-direction: column;
+    }
+  
+    .service-details{
+        margin-top: 10%;
+        width: 90%;
+    }
+
+
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .location {
+        width: 100%;
+    }
+    .location ul li{
+        font-size: 15px;
+    }
+    .messsages{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .messsages input{
+        width: 100%;
+        height: 35px;
+    }
+    .messsages textarea{
+        width: 100%;
+        height: 90px;
     }
 }

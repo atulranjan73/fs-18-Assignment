@@ -6,6 +6,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -139,7 +143,8 @@ nav .icons i {
 
 #services .section-heading,
 #projects .section-heading,
-#projects .categories {
+#projects .categories,
+#testimonials .section-heading {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -148,7 +153,8 @@ nav .icons i {
 
 #services .section-heading h2,
 #projects .section-heading h2,
-#contact .section-heading h2 {
+#contact .section-heading h2,
+#testimonials .section-heading h2 {
   color: #484a46;
   margin-bottom: 3.25rem;
   font-family: Montserrat;
@@ -163,11 +169,16 @@ nav .icons i {
 }
 
 #services .section-wrapper,
-#projects .section-wrapper {
+#projects .section-wrapper,
+#testimonials .section-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+#services .section-wrapper {
+  align-items: flex-start;
 }
 
 .service {
@@ -185,34 +196,41 @@ nav .icons i {
   position: relative;
   padding: 2.25rem 2.5rem 2.125rem 2.5rem;
 }
+
 .service .content h3 {
   text-align: center;
   margin-bottom: 0.75rem;
   font-size: 1.375rem;
   color: #484a46;
 }
+
 .service .content p {
   line-height: 1.56rem;
   margin-bottom: 1rem;
 }
+
 .service .content ul {
   margin-bottom: 1.5rem;
 }
+
 .service .content p,
 .service .content ul {
   color: #787976;
 }
+
 .service .content ul li {
   padding-left: 0.625rem;
   margin-bottom: 0.325rem;
   display: flex;
 }
+
 .service .content ul li i {
   color: #14bf98;
   font-size: 0.5rem;
   line-height: 1.375rem;
   margin-right: 0.625rem;
 }
+
 .service .content h4 {
   margin-bottom: 0.25rem;
   color: #484a46;
@@ -236,20 +254,68 @@ nav .icons i {
   bottom: -24px;
 }
 
+#testimonials {
+  padding: 6.25rem 4.5rem;
+}
 
-/* -------tesitomonial-------- */
-.testimonials-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#testimonials .section-heading {
+  width: 50%;
 }
-.testimonials .heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-    
+
+#testimonials .section-heading h2 {
+  margin-bottom: 1rem;
 }
+
+#testimonials .section-heading p {
+  color: #787976;
+  line-height: 1.5;
+}
+
+#testimonials .section-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: grid;
+  grid-auto-columns: 33%;
+  grid-auto-flow: column;
+}
+
+#testimonials .section-wrapper::-webkit-scrollbar {
+  height: 8px;
+  background-color: #aaa;
+  border-radius: 5px;
+}
+
+#testimonials .section-wrapper::-webkit-scrollbar-thumb {
+  background-color: green;
+  border-radius: 5px;
+}
+
+#testimonials .testimonial {
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#testimonials .testimonial p {
+  color: #787976;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-style: i;
+}
+
+#testimonials .testimonial h4 {
+  color: #484a46;
+}
+
 #projects {
   padding: 6.25rem 4.5rem;
 }
@@ -398,6 +464,7 @@ nav .icons i {
   padding: 6.25rem 4.5rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #contact .left {
@@ -515,8 +582,8 @@ nav .icons i {
   transition: all 300ms;
 }
 
-#contact .right input[type="text"]:focus + label,
-#contact .right textarea:focus + label {
+#contact .right input[type="text"]:focus+label,
+#contact .right textarea:focus+label {
   font-size: 0.7rem;
   top: 0.5rem;
 }
@@ -589,8 +656,7 @@ footer .top .right {
   justify-content: space-between;
 }
 
-footer .top .right ul {
-}
+footer .top .right ul {}
 
 footer .top .right a {
   text-decoration: underline;
@@ -754,7 +820,178 @@ select {
   }
 }
 
-#callme .right input[type="text"]:focus + label {
+#callme .right input[type="text"]:focus+label {
   font-size: 0.7rem;
   top: 0.2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+  #services .section-heading, #projects .section-heading, #projects .categories, #testimonials .section-heading {
+    width: 60%;
+  }
+
+  #projects .categories a {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+
+  .first {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #hero {
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+  }
+
+  #intro {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .text {
+    width: 65%;
+  }
+
+  #callme .left, #callme .right {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  #callme .container {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  #services .section-heading, #projects .section-heading, #projects .categories, #testimonials .section-heading {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #hero {
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+  }
+
+  .text h1 {
+    font-size: 2.5rem;
+  }
+
+  #intro .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service .content {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .service .content a {
+    left: 25%;
+  }
+
+  footer {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+}
+
+#hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 915px) {
+  nav ul {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .text h1 {
+    font-size: 2.0rem;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  #intro {
+    margin: 2rem 0;
+  }
+
+  #intro .container {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  #intro img {
+    width: 100%;
+  }
+
+  #cards .container {
+    grid-template-columns: 1fr;
+  }
+
+  #cards .card {
+    text-align: center;
+  }
+
+  #services .section-wrapper {
+    gap: 3rem;
+  }
+
+  .service {
+    width: 100%;
+    border: 1px solid #d5d5d5c3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .service .content {
+    padding: 20px 1.5rem;
+  }
+
+  .service .content a {
+    left: 40%;
+    margin-top: 1.5rem;
+  }
+
+  #testimonials .section-wrapper {
+    grid-auto-columns: 100%
+  }
+
+  #callme .container {
+    grid-template-columns: 1fr;
+  }
+
+  #callme .left, #callme .right {
+    padding: 2rem;
+  }
+
+  #projects .categories {
+    width: 100%;
+  }
+
+  #projects .project {
+    width: 50%;
+  }
+
+  #contact .left, #contact .right {
+    width: 100%;
+    margin-top: 2rem;
+  }
 }

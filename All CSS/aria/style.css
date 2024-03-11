@@ -427,12 +427,15 @@ nav .icons i {
 }
 
 .second {
+  
   text-align: center;
   overflow: hidden;
 }
 
 .second img {
-  width: 85%;
+ 
+  width: 100vw;
+
 }
 
 #cards h2 {

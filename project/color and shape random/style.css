@@ -1,0 +1,36 @@
+/* CSS (style.css) */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#color {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
+
+#shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+/* CSS to make a circle shape */
+#shape.circle {
+    border-radius: 50%;
+}
+.button{
+    margin-top: 15px;
+}

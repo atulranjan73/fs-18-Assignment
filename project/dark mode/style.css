@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f0f0; /* default light mode background */
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .icon {
+    width: 50px;
+    cursor: pointer;
+  }
+  

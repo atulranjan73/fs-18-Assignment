@@ -19,6 +19,7 @@ const getColor = () => {
     // Apply the random color to the background of the #color div
     colorDiv.style.backgroundColor = randomCode;
     headingColor.style.color =randomCode ;
+    
 }
 
 const changeShape = () => {

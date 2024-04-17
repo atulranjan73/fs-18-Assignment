@@ -6,6 +6,10 @@
     width: 100vw;
     height: 100vh;
     flex-direction: column;
+
+}
+h1{
+    color: red;
 }
 
 #color {
@@ -13,7 +17,6 @@
     width: 200px;
     height: 200px;
     background-color: rebeccapurple;
-    border-radius: 50%;
 }
 
 #shape {
@@ -24,13 +27,11 @@
     height: 100px;
     width: 100px;
     background-color: yellow;
-    border-radius: 10px;
-}
-
-/* CSS to make a circle shape */
-#shape.circle {
-    border-radius: 50%;
 }
 .button{
-    margin-top: 15px;
+    padding-top: 3%;
+}
+.button :hover{
+   cursor: pointer;
+   background-color: rgb(255, 255, 0.4);
 }

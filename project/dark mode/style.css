@@ -1,17 +1,22 @@
-body {
-    background-color: #f0f0f0; /* default light mode background */
-    transition: background-color 0.3s ease;
-  }
-  
-  .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
   
-  .icon {
-    width: 50px;
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
   }
   

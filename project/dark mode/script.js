@@ -1,14 +1,16 @@
-function toggleMode(mode) {
-    const body = document.body;
-  
-    if (mode === 'dark') {
-      body.style.backgroundColor = '#121212'; // dark mode background
-      document.getElementById('sun').style.display = 'none'; // hide sun icon
-      document.getElementById('moon').style.display = 'inline'; // show moon icon
-    } else {
-      body.style.backgroundColor = '#f0f0f0'; // light mode background
-      document.getElementById('sun').style.display = 'inline'; // show sun icon
-      document.getElementById('moon').style.display = 'none'; // hide moon icon
-    }
+let darkModeEnabled = false;
+
+function toggleMode() {
+  const body = document.body;
+  const toggleButton = document.getElementById('toggleButton');
+
+  if (darkModeEnabled) {
+    body.style.backgroundColor = '#f0f0f0'; // light mode background
+    toggleButton.textContent = 'Toggle Dark Mode';
+  } else {
+    body.style.backgroundColor = '#121212'; // dark mode background
+    toggleButton.textContent = 'Toggle Light Mode';
   }
-  
+
+  darkModeEnabled = !darkModeEnabled;
+}

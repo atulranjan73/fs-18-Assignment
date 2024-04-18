@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+#btn-1 {
+    margin: 3px;
+}
+
+.left-top {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.right {
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Automatically adjusts columns */
+    grid-gap: 10px; /* Adds spacing between notes */
+}
+
+.heading h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.output {
+    width: 100px;
+    height: 100px;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}

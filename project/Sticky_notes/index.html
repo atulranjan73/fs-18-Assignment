@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-top">
+                <div class="textaria">
+                    <textarea name="" id="textarea" cols="30" rows="10" placeholder="//Write a note here"></textarea>
+                </div>
+                <div class="color">
+                    <input type="color" id="color">
+                </div>
+            </div>
+            <div class="button">
+                <button id="btn-1">Add Notes</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="heading">
+                <h2>Your Notes</h2>
+            </div>
+            <div id="notesContainer" class="notes-container">
+                <!-- Notes will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <script src="sripts.js"></script>
+</body>
+</html>

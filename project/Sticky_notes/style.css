@@ -5,6 +5,8 @@
 }
 .container {
     display: flex;
+    width: 100vw;
+
 }
 
 .left {
@@ -49,7 +51,7 @@
 }
 
 .right {
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex; /* Change display to flex */
     flex-wrap: wrap; /* Allow items to wrap to next line */

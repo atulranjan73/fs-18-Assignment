@@ -1,16 +1,15 @@
-let darkModeEnabled = false;
+const togglebtn = document.querySelector("#checkbox");
 
-function toggleMode() {
-  const body = document.body;
-  const toggleButton = document.getElementById('toggleButton');
+togglebtn.addEventListener('click' , ()=>{
+   if(togglebtn.checked){
+    document.body.style.backgroundColor="black";
+    document.getElementById("toggle").style.backgroundColor="grey";
+   }
+   else{
+    document.body.style.backgroundColor="white";
+    document.getElementById("toggle").style.backgroundColor="black";
 
-  if (darkModeEnabled) {
-    body.style.backgroundColor = '#f0f0f0'; // light mode background
-    toggleButton.textContent = 'Toggle Dark Mode';
-  } else {
-    body.style.backgroundColor = '#121212'; // dark mode background
-    toggleButton.textContent = 'Toggle Light Mode';
-  }
 
-  darkModeEnabled = !darkModeEnabled;
-}
+   }
+ 
+})

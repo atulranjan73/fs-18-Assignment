@@ -4,12 +4,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dark Mode Toggle</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0; /* Added a background color for better visibility */
+    }
+    #checkbox{
+      visibility: hidden;
+    }
+    .toggle{
+      width: 10rem;
+      height: 5rem;
+      background-color: black;
+      display: inline-block;
+      border-radius: 40px;
+      position: relative;
+      display: flex;
+      gap: 20px;
+    }
+    .circle{
+      top: .5rem;
+      left: .5rem;
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      background-color: #fff;
+      display: inline-block;
+      border-radius: 50%;
+      transition: transform 0.3s ease; /* Added transition for smooth movement */
+    }
+    #checkbox:checked + .toggle .circle{
+      transform: translateX(5rem); /* Moved circle 100% of its parent's width */
+    }
+    .sun , .moon{
+      position: relative;
+      font-size: 3rem;
+    }
+    /* .moon{
+      position: relative;
+      font-size: 3rem;
+    } */
+  
+  </style>
 </head>
 <body>
   <div class="container">
-    <button id="toggleButton" onclick="toggleMode()">Toggle Dark Mode</button>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox" class="toggle" id="toggle">
+      <p class="sun">☀️</p>
+      <p class="moon">🌙</p>
+      <span class="circle"></span>
+    </label>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

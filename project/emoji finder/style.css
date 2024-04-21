@@ -1,0 +1,83 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Fallback font */
+}
+
+/* Wrapper styles */
+#wrapper {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add some padding for breathing space */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center; /* Center-align heading */
+    margin-bottom: 20px; /* Add some spacing below heading */
+    color: #333; /* Dark gray text color */
+}
+
+/* Form styles */
+form {
+    text-align: center; /* Center-align form elements */
+    margin-bottom: 20px; /* Add some spacing below form */
+}
+
+input[type="text"] {
+    padding: 10px; /* Add padding to input field */
+    width: 60%; /* Set input field width */
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 5px; /* Add slight border radius */
+    font-size: 16px; /* Increase font size for better readability */
+}
+
+button[type="submit"] {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #4CAF50; /* Green button color */
+    color: white; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add slight border radius */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Results container styles */
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Add some spacing between grid items */
+}
+
+/* Emoji card styles */
+.parent {
+    background-color: #fff; /* White background for emoji cards */
+    padding: 20px; /* Add padding inside each card */
+    border-radius: 10px; /* Add slight border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.parent span {
+    display: block; /* Display spans as block elements */
+    margin-bottom: 10px; /* Add spacing between spans */
+}
+
+.parent span:first-child {
+    font-size: 2em; /* Larger font size for emoji */
+}
+
+.parent span:last-child {
+    color: #666; /* Gray color for description */
+    font-size: 14px; /* Smaller font size for description */
+}

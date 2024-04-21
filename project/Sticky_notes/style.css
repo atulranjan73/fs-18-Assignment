@@ -76,7 +76,7 @@
 .output {
     width: 100px;
     height: 100px;
-    background: red;h
+    background: red;
     padding: 10px;
     border-radius: 5px;
     box-sizing: border-box; /* Ensures padding doesn't affect width */

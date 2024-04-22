@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif; /* Fallback font */
 }
 
-/* Wrapper styles */
+
 #wrapper {
     max-width: 800px; /* Limit content width */
     margin: 0 auto; /* Center content horizontally */

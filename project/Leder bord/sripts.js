@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Initial three players
     addPlayer("Atul Ranjan", "India", "100");
-    addPlayer("riti", "Pakistan", "150");
+    addPlayer("ritik", "Pakistan", "150");
     addPlayer("Ayush", "China", "200");
 
     // Event listener for adding a player

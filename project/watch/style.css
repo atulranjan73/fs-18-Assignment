@@ -2,8 +2,7 @@ body{
     background-color:#edeaff;
 }
 .stopwatch{
-    width: 90%;
-    max-width: 600px;
+    width: 100vw;height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0)),url(imag/background.png);
     background-size: cover;
     background-position:center ;

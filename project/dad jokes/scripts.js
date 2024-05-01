@@ -18,6 +18,3 @@ getDataFromAPI();
 
 document.getElementById("jokeBtn").addEventListener( ('click') , getDataFromAPI);
 
-
-
-// fetch("https://api.api-ninjas.com/v1/dadjokes")

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* corrected 'border' typo */
+}
+.heading {
+    text-align: center;
+    color: rgb(193, 228, 34);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid saddlebrown; /* corrected 'saddlebrown' */
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 58%;
+    height: 80vh;
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+.right {
+    width: 38%;
+    height: 80vh;
+    border: 2px solid red;
+}
+textarea {
+    margin: 30px 25px;
+    width: calc(100% - 50px); /* adjust width considering the margin */
+    height: calc(100% - 60px); /* adjust height considering the margin */
+}

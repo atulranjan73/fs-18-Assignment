@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, san-serif;
+    font-weight: 800;
+    color: #fff;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul {
+    list-style: none;
+  }
+  header {
+    display: flex;
+    padding: 0.5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+  header img {
+  width: 4rem;
+  margin-left: 2rem;
+  }
+  header a h2{
+    color: blue;
+  }
+  
+  
+  .btn {
+    padding: 0.7rem 1.5rem;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: blue;
+    transition: all 300ms ease;
+    font-size: 1.3rem;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: blue;
+  }
+  
+  main {
+    padding: 3rem;
+    background-color: black;
+  }
+  #hero {
+    background-image: url("assests/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    min-height: 90vh;
+  }
+  #hero h1 {
+    font-size: 6rem;
+    padding-top: 6rem;
+    text-shadow: 4px 2px rgb(57, 57, 241);
+  }
+  #hero p,
+  #hero h1 {
+    padding-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  #hero p{
+    font-size: 1.5rem;
+  }
+  #hero a {
+    margin-left :13rem;
+    margin-top: 2rem;
+  }
+  
+  #trending {
+    padding-bottom: 2rem;
+  }
+  #trending h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px red;
+  }
+  
+  .coins-wrapper {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  .coins-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .coins {
+    min-width: 20rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    margin: 1rem;
+  }
+  .coins img {
+    margin: 0.5rem;
+  }
+  .coins:hover{
+    background-color: rgb(61, 60, 60);
+    box-shadow: 0 0 1rem blue;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  footer p{
+    padding: 1rem;
+  }
+  
+  /* SEARCH PAGE */
+  
+  form {
+    width: 50vw;
+    margin: 1rem auto;
+  }
+  form input,
+  form button {
+    margin: 1.5rem 0;
+  }
+  form input {
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: black;
+  }
+  form button {
+    padding: 1rem ;
+    background-color: greenyellow;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 12px;
+  }
+  
+  #search{
+    height: fit-content;
+    min-height: 52vh;
+  }
+  
+  #search-results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  #search-results .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background:linear-gradient(rgb(0, 204, 255),white);
+    border: 4px solid whitesmoke;
+    margin-bottom: 2rem;
+    width: 23%;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .result h3,span{
+    color: #0a0a0a;
+  }
+  
+  .result .more {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: red;
+    margin: 0.5rem;
+    border-radius: 15px;
+  } 
+  
+  .coin-photo{
+    width: 4rem;
+  }
+  
+  /* SINGLE PAGE */
+  
+  .single-crypto-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .left {
+    width: 20%;
+  }
+  .left img:hover{
+    transform: scale(1.2);
+  }
+  .right {
+    margin-left: 2rem;
+    width: 75%;
+  }
+  .right h3 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+  .right p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+   .single-crypto-history {
+    padding: 2rem 0;
+  }
+  .single-crypto-history h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 22rem;
+  }
+  
+  .single-crypto-history p{
+    margin-left: 22rem;
+  }
+  canvas{
+    margin: 8rem 15rem;
+  }
+  
+  .prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }

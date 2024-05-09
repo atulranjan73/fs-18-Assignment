@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CryptoView</title>
+    <title>Search Crypto Currency</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -18,7 +17,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
+    <div id="searchContainer">
       <header>
         <a href="index.html">
           <img src="assests/logo.png" alt="Logo" />
@@ -26,21 +25,21 @@
         </a>
 
         <ul>
-          <li><a class="btn" href="seacrch.html">Search</a></li>
+          <li><a class="btn" href="search.html">Search</a></li>
         </ul>
       </header>
 
-      <main>
-        <section id="hero">
-          <h1>CryptoView</h1>
-          <p>A platform to view information about all cryptocurrencies live.</p>
-          <a href="#trending" class="btn">View All Coins</a>
-        </section>
+      <main id="search">
+        <form action="" method="get">
+          <input
+            type="text"
+            placeholder="Search cryptocurrencies"
+            name="query"
+          />
+          <button type="submit">Search</button>
+        </form>
 
-        <section id="trending">
-          <h2>Top Coins</h2>
-          <div class="coins-wrapper"></div>
-        </section>
+        <div id="search-results"></div>
       </main>
 
       <footer>
@@ -54,8 +53,9 @@
           ></a>
         </p>
       </footer>
+
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="search.js"></script>
   </body>
 </html>

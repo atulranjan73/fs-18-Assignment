@@ -55,27 +55,26 @@
           <h1 class="heading">Good afternoon, Atul Ranjan <br>
             <span>You are strong!</span>
           </h1>
-          <div class="about">
-            <div>
-              <button id="top" class="about-top" onclick="click()">what is u Matter</button>
-            </div>
-            <div id="down" class="about-down">
-              <p>U matter is a meditation and relaxation app that designed to take you some moment to relax and breathe.
-                U Matter mission is to help you find your inner peace and improve your mental health. </p>
-            </div>
-
+      <div class="matter-about">
+        <div class="about">
+          <div>
+              <button class="about-top">What is u Matter</button>
           </div>
-          <div class="about">
-            <div>
-              <button id="top" class="about-top" onclick="click()">what is u Matter</button>
-            </div>
-            <div id="down" class="about-down">
-              <p>U matter is a meditation and relaxation app that designed to take you some moment to relax and breathe.
-                U Matter mission is to help you find your inner peace and improve your mental health. </p>
-            </div>
-
+          <div class="about-down">
+              <p>U Matter is a meditation and relaxation app that is designed to take you some moment to relax and breathe. U Matter's mission is to help you find your inner peace and improve your mental health.</p>
           </div>
-
+      </div>
+      
+        <div class="about">
+          <div>
+              <button class="about-top">What is u Matter</button>
+          </div>
+          <div class="about-down">
+              <p>U Matter is a meditation and relaxation app that is designed to take you some moment to relax and breathe. U Matter's mission is to help you find your inner peace and improve your mental health.</p>
+          </div>
+      </div>
+      </div>
+        
         </div>
         <div class="heading-img">
           <img src="pngegg.png" alt="">
@@ -88,25 +87,9 @@
 
     </div>
   </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      let topButton = document.getElementById("top");
-      let down = document.getElementById("down");
-    
-      topButton.addEventListener("click", function () {
-        click();
-      });
-    
-      function click() {
-        if (down.style.display === "none") {
-          down.style.display = "block";
-        }
-        else {
-          down.style.display = "none";
-        }
-      }
-    });
-    </script>
+  <script src="scripts.js">
+ 
+</script>
 </body>
 
 </html>

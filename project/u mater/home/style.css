@@ -53,6 +53,7 @@ body{
 
 
 
+
 .main {
     width: 100%;
     height: 100vh;  
@@ -124,3 +125,64 @@ body{
 .about-down p{
   text-align: center; 
 }
+
+
+
+    @media only screen and (max-width: 480px) {
+        .nav{
+            display: none;
+        }
+        .main{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            margin: auto;
+        }
+        .heading {
+            width: 300px;
+            /* border: 3px solid rebeccapurple; */
+          font-size: 40px;
+          margin: auto;
+          text-align: center;
+        }
+      
+        .main-heading {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .heading span {
+          font-size: 40px;
+        }
+      
+
+        .matter-about {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .about {
+          width: 100%;
+          margin: 4px;
+         
+        }
+        .about-top{
+            width: 300px;
+            margin: auto;
+        }
+        .about-down{
+            width: 300px;
+            margin: auto;
+        }
+      
+        .heading-img {
+          width: 300px;
+          margin: auto;
+        }
+        .heading-img img{
+          width: 220px;
+          margin: auto;
+        }
+      }
+
+

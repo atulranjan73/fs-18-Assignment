@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body{
-    background: linear-gradient(to right bottom, rgba(7, 93, 124, 0.3), rgba(0, 0, 0, 0.838));
+body{
+    background: linear-gradient(to right bottom, rgba(7, 93, 124, 0.3), rgba(87, 0, 85, 0.838));
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
-} */
+}
 .container{
     justify-content: center;
     align-items: center;
@@ -85,8 +85,15 @@ h1 {
 
 .music-box{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 5rem;
+
+margin: auto;
+display: flex;
+width: 100vw;
+}
+.musics{
+   
+    margin: 5px;
 }

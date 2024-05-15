@@ -415,3 +415,75 @@ button:focus+.design-container {
     flex-direction: column;
     gap: 16px;
 }
+
+
+.toggle-button{
+  display: none;
+}
+
+.logo1{
+  display: none;
+
+ }
+
+
+    @media only screen and (max-width: 480px) {
+      .toggle-button{
+        display: block;
+        color:black;
+          font-size: 30px;
+          cursor: pointer;
+      }
+      .nav-icon{
+        display: flex;
+        gap: 100px;
+        padding: 10px 20px;
+        background: linear-gradient(240deg, rgba(58, 85, 118, 0.7) 10%, #2c2e44 70%);
+        box-shadow: 3px 5px 6px rgba(45, 55, 68, 0.3);
+    
+      }
+      .nav-bar{
+        display: none;
+      }
+       .acti{
+        display: block;
+       }
+       .logo1{
+        display: block;
+        margin: 0;
+       }
+       .logo{
+        display:none;
+       }
+        .nav{
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-links{
+          display: flex;
+          flex-direction: column;
+        }
+        .content-overlay{
+          position: absolute;
+          margin-top: 12rem;
+        
+        }
+        .row{
+          display: flex;
+          flex-direction: column;
+          margin-top: 8rem;
+          justify-content: center;
+          margin: 0;
+          position: relative;
+          top:15rem;
+        }
+        .overlay-heading{
+          position: relative;
+          top: 14rem;
+         /* border: 2px solid red; */
+         width: 400px;
+         margin: auto;
+         font-size: 12px;
+        }
+      }

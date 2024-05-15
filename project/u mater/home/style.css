@@ -179,6 +179,8 @@ body{
           display: flex;
           flex-direction: column;
         }
+
+        
         .main{
             box-sizing: border-box;
             padding: 0;

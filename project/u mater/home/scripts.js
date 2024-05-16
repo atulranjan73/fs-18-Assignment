@@ -1,35 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let topButtons = document.querySelectorAll(".about-top");
+  let topButtons = document.querySelectorAll(".about-top");
 
-    topButtons.forEach(function (topButton) {
-        let parent = topButton.closest(".about");
-        let down = parent.querySelector(".about-down");
+  topButtons.forEach(function (topButton) {
+    let parent = topButton.closest(".about");
+    let down = parent.querySelector(".about-down");
 
-        topButton.addEventListener("mouseenter", function () {
-            if (down) {
-                down.style.display = "block";
-            } else {
-                console.error("No corresponding .about-down element found.");
-            }
-        });
-
-        parent.addEventListener("mouseleave", function () {
-            if (down) {
-                down.style.display = "none";
-            }
-        });
+    topButton.addEventListener("mouseenter", function () {
+      if (down) {
+        down.style.display = "block";
+      } else {
+        console.error("No corresponding .about-down element found.");
+      }
     });
+
+    parent.addEventListener("mouseleave", function () {
+      if (down) {
+        down.style.display = "none";
+      }
+    });
+  });
 });
 
+const navbar = document.querySelector(".nav-bar"); // Corrected selector
+const toggleButton = document.getElementById("toggle-button");
 
-
-
-
-    const navbar = document.querySelector('.nav-bar'); // Corrected selector
-const toggleButton = document.getElementById('toggle-button');
-
-toggleButton.addEventListener('click', () => {
-    navbar.classList.toggle('acti');
+toggleButton.addEventListener("click", () => {
+  navbar.classList.toggle("acti");
 });
-
-

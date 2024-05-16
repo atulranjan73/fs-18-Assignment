@@ -5,8 +5,9 @@
 }
 
 body {
-  /* background: #224941 url("./img/bg.jpg") no-repeat center center/cover; */
+  background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
   color: #fff;
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   overflow: hidden;
@@ -15,13 +16,6 @@ body {
   align-items: center;
   margin: 0;
   position: relative;
-}
-
-video{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  width: 100%;
 }
 
 

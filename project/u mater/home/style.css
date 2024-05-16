@@ -82,6 +82,7 @@ body{
 }
 .main-heading span{
   font-size: 3.5rem;
+  color: rgb(0, 85, 255);
 }
 .heading-content{
     color: white;

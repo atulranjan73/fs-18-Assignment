@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: black;
+ }
+ 
+ .container {
+     width: 100%;
+     min-height: 100vh;
+     height: 100%;
+     background-color: black;
+ }
+ 
+ h1 {
+     text-align: center;
+     padding: 1rem;
+     font-size: 4rem;
+     color: white;
+ }
+ 
+ 
+ .head{
+     font-size: 1.2rem;
+     padding: 0.2rem;
+     margin: 1rem;
+ }
+ 
+ .button{
+     border-radius: 10px;
+     padding: 0.5rem 1rem;
+     margin: 0.3rem;
+     font-weight: 900;
+ }
+ 
+ .reset{
+     background-color: rgb(233, 40, 40);
+ }
+ 
+ .filter{
+     background-color: yellow;
+ }
+ 
+ #name {
+     align-content: center;
+ }
+ 
+ 
+ #pokemon-type-filter {
+     text-align: center;
+ }
+ 
+ 
+ .type{
+     margin: 10px;;
+ }
+ 
+ #pokemon {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+ }
+ 
+ /* flip card container  */
+ .flip-card {
+     margin: 2rem;
+     width: 14rem;
+     height: 20rem;
+     text-align: center;
+     justify-content: center;
+ }
+ 
+ /*  position the front and back side */
+ .flip-card-inner {
+     box-shadow: 0 0 30px yellow;
+     border: 3px solid white;
+     border-radius: 35px;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: 1s;
+     transform-style: preserve-3d;
+ }
+ 
+ 
+ .flip-card:hover .flip-card-inner{
+     transform: rotateY(180deg);
+ }
+ 
+ 
+ .front-pokemon-card, .back-pokemon-card {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     align-items: center;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+ }
+ 
+ .front-pokemon-card {
+     z-index: 2;
+     transform: rotateY(0);
+ }
+ 
+ .back-pokemon-card {
+     transform: rotateY(180deg);
+ }
+ 
+ .front-pokemon-image {
+     position: relative;
+     top: 5px;
+     height: 10rem;
+     width: 10rem;
+ }
+ 
+ .front-pokemon-name{
+     font-size: 2rem;
+ }
+ 
+ .back-pokemon-name{
+     padding: 2rem;
+     font-size: 1.8rem;
+ }
+ 
+ #grass {
+     background:linear-gradient(rgb(9, 238, 9),rgb(1, 95, 1))
+ }
+ 
+ #bug {
+     background:linear-gradient(yellow,rgb(191, 227, 10),green);
+ }
+ 
+ #fire {
+     background:linear-gradient(yellow,orange,rgb(251, 166, 7));
+ }
+ 
+ #water {
+     background:linear-gradient(skyblue,blue);
+ }
+ 
+ #ice {
+     background:linear-gradient(rgb(180, 210, 220),#04bef7);
+ }
+ 
+ #electric {
+     background: linear-gradient(rgb(253, 182, 2),rgb(247, 173, 34),rgb(230, 251, 3));
+ }
+ 
+ #psychic {
+     background:linear-gradient(rgb(254, 109, 254),purple);
+ }
+ 
+ #ghost {
+     background:linear-gradient(grey, #5e17c9);
+ }
+ 
+ #ground {
+     background:linear-gradient(rgb(0, 170, 255),rgb(8, 255, 8));
+ }
+ 
+ #poison {
+     background:linear-gradient(rgb(246, 225, 246),rgb(44, 1, 44));
+ }
+ 
+ #fairy {
+     background:linear-gradient(pink,rgb(238, 67, 96));
+ }
+ 
+ #normal {
+     background:linear-gradient(lightcyan,rgb(8, 145, 70));
+ }
+ 
+ #dragon {
+     background:linear-gradient(rgb(247, 247, 40),orange,red);
+ }
+ 
+ #fighting {
+     background:linear-gradient(burlywood,brown);
+ }
+ 
+ #rock {
+     background:linear-gradient(grey,rgb(203, 137, 51))
+ }
+ #dark{
+     background:linear-gradient(grey,black);
+ }
+ 
+ #steel{
+     background: linear-gradient(white,grey);
+ }

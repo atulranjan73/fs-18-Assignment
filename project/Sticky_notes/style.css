@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 100vw;
+
+}
+
+.left {
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px rgb(138, 82, 93); 
+}
+.textaria textarea{
+    background-color: rgb(80, 201, 191);
+}
+
+#btn-1 {
+    margin: 3px;
+    height: 20px;
+    width: 200px;
+    position: relative;
+    right: 14%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(201, 174, 247);
+}
+
+
+.left-top {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.right {
+    width: 45%;
+    height: auto;
+    display: flex; /* Change display to flex */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    justify-content: flex-start; /* Align items from left to right */
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 2px 2px rgb(146, 122, 127);
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+/* Since flex doesn't have a built-in gap feature, you can add margin to create spacing */
+.right > * {
+    margin-right: 10px; /* Adds spacing between notes */
+    margin-bottom: 10px; /* Adds spacing between rows */
+}
+
+.heading h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.output {
+    width: 100px;
+    height: 100px;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    display: flex;
+    flex-direction: row;
+}
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 11px;
+    
+}

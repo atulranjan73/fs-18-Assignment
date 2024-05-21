@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Details</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="form-container">
+    <h2>Enter Student Details</h2>
+    <form id="studentForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age"><br>
+      <label for="grade">Batch:</label><br>
+      <input type="text" id="grade" name="grade"><br>
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone"><br>
+      <label for="village">Village:</label><br>
+      <input type="text" id="village" name="village"><br>
+      <label for="photo">Photo:</label><br>
+      <input type="file" id="photo" name="photo" accept="image/*"><br>
+    </form>
+  </div>
+  <div class="info-container" id="info">
+    <h2>Geekster</h2>
+    <p><strong></strong> <img id="infoPhoto" src="#" alt=""></p>
+    <p><strong>Name:</strong> <span id="infoName"></span></p>
+    <p><strong>Age:</strong> <span id="infoAge"></span></p>
+    <p><strong>Batch:</strong> <span id="infoGrade"></span></p>
+    <p><strong>Phone:</strong> <span id="infoPhone"></span></p>
+    <p><strong>Village:</strong> <span id="infoVillage"></span></p>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right bottom, rgba(7, 93, 124, 0.3), rgba(0, 0, 0, 0.838));
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    width: 100%;
+    background: linear-gradient(240deg, rgba(58, 85, 118, 0.7) 10%, #2c2e44 70%);
+    box-shadow: 3px 5px 6px rgba(45, 55, 68, 0.3);
+    padding: 1.25rem 0.5rem 2rem 0.5rem;
+}
+.nav{
+    display: flex;
+  justify-content: space-between;
+  padding: 0px 11px;
+  font-size: 21px;
+  margin-top: 15px;
+}
+
+.nav-bar ul a{
+   text-decoration: none;
+   padding: 1rem;
+   color: aliceblue;
+   transition: 0.8s ease-in-out;
+}
+.nav-bar ul a:hover{
+    color: black;
+    background: linear-gradient(190deg, rgb(240, 117, 199), rgba(178, 117, 240));
+    transition: 0.8s ease-in-out;
+}
+.bar-icon{
+  color:whitesmoke;
+  font-size: 30px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 100%;
+    height: 100vh;  
+    padding: 30px 0px; 
+}
+.main-heading{
+    margin:auto;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 0 3px 3px rgba(255, 255, 253, 0.25);
+
+}
+.heading{
+    letter-spacing: 1.7px;
+    font-size: 35px;
+}
+.main-heading span{
+  font-size: 3.5rem;
+}
+.heading-content{
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+}
+.heading-img{
+    margin-right: 50px;
+}
+.heading-img img{
+    width: 300px;
+}
+
+
+.matter-about{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+.about {
+    width: 50%;
+    margin: 10% 0px;
+
+}
+.about-top {
+    padding: 0.8rem;
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(20, 92, 201, 0.3));
+    position: relative;
+    margin: 14px;
+    cursor: pointer;
+    box-shadow: 0 5px 25px rgba(0 0 0 / 20%);
+    color: #222;
+    border-radius: 10px;
+    width: 380px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    font-size: 1.3rem;
+
+}
+
+.about-down {
+    display: none;
+    width: 370px;
+    font-size: 18px;
+    padding: 0.8rem;
+}
+.about-down p{
+  text-align: center; 
+}
+.toggle-button{
+  display: none;
+}
+
+.logo1{
+  display: none;
+
+ }
+
+
+    @media only screen and (max-width: 480px) {
+      .toggle-button{
+        display: block;
+        color:black;
+          font-size: 30px;
+          cursor: pointer;
+      }
+      .nav-icon{
+        display: flex;
+        gap: 100px;
+        padding: 10px 20px;
+        background: linear-gradient(240deg, rgba(58, 85, 118, 0.7) 10%, #2c2e44 70%);
+        box-shadow: 3px 5px 6px rgba(45, 55, 68, 0.3);
+    
+      }
+      .nav-bar{
+        display: none;
+      }
+       .acti{
+        display: block;
+       }
+       .logo1{
+        display: block;
+        margin: 0;
+       }
+       .logo{
+        display:none;
+       }
+        .nav{
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-links{
+          display: flex;
+          flex-direction: column;
+        }
+        .main{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            margin: auto;
+        }
+        .heading {
+            width: 300px;
+            /* border: 3px solid rebeccapurple; */
+          font-size: 40px;
+          margin: auto;
+          text-align: center;
+        }
+      
+        .main-heading {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .heading span {
+          font-size: 40px;
+        }
+      
+
+        .matter-about {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .about {
+          width: 100%;
+          margin: 4px;
+         
+        }
+        .about-top{
+            width: 300px;
+            margin: auto;
+        }
+        .about-down{
+            width: 300px;
+            margin: auto;
+        }
+      
+        .heading-img {
+          width: 300px;
+          margin: auto;
+        }
+        .heading-img img{
+          width: 220px;
+          margin: 30px;
+        }
+        
+
+      }
+
+

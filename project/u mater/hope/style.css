@@ -37,7 +37,10 @@
     color:white;
     font-family: 'Times New Roman', Times, serif;
     height: 100vh;
+<<<<<<< HEAD
     height: auto;
+=======
+>>>>>>> c6cd89af4cdb1f2f17b004dadaa687b45d91d83c
 
 }
 .footer-heading{
@@ -56,6 +59,7 @@
     margin-top: 50px;
     font-size: 1.5rem;
 }
+<<<<<<< HEAD
 .box1 h4 , .box2 h4 ,.box3 h4{
   margin-top: 15px;
   color: aqua;
@@ -64,6 +68,11 @@
 ul li{
   list-style: none;
   margin: 10px;
+=======
+ul li{
+  list-style: none;
+  margin: 3px;
+>>>>>>> c6cd89af4cdb1f2f17b004dadaa687b45d91d83c
 }
 .toggle-button{
     display: none;

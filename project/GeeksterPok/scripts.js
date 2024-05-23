@@ -126,5 +126,8 @@ function getTypes(){
 
 reset.addEventListener("click",()=>{
     window.location.reload();
+<<<<<<< HEAD
     
+=======
+>>>>>>> c6cd89af4cdb1f2f17b004dadaa687b45d91d83c
 })

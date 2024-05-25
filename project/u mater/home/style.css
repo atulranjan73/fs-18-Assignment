@@ -78,7 +78,8 @@ body{
 }
 .heading{
     letter-spacing: 1.7px;
-    font-size: 35px;
+    font-size: 55px;
+    color: red;
 }
 .main-heading span{
   font-size: 3.5rem;

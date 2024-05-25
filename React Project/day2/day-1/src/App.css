@@ -1,0 +1,14 @@
+.container{
+  width: 50%;
+  margin: auto;
+  /* border: 1px solid black; */
+  background-color: #eedede;
+}
+h1{
+  color: rebeccapurple;
+  text-align: center;
+
+}
+p{
+  padding: 14px ;
+}

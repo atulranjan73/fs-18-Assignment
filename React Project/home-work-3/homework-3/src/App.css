@@ -1,0 +1,86 @@
+/* :::::::::::::::::::::Header:::::::::::::::::::: */
+header{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+.heading h1{
+  color: rgba(166, 36, 36, 0.967);
+}
+.heading p{
+  font-size: 18px;
+  line-height: 2px;
+  font-weight: 500;
+}
+.navbar{
+  width: 100vw;
+  background: gray;
+  height: 60px;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.navbar ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+  line-height: 60px; /* Vertically centers the text */
+  padding: 0 10px; /* Adjust as needed for horizontal padding */
+  box-sizing: border-box;
+}
+.navbar ul li a:hover{
+  background-color: rgba(166, 36, 36, 0.967); 
+}
+
+/* ::::::::::::::::::::::::::main:::::::::::::::::::::::::: */
+main{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+.main-image img{
+  width: 100vw;
+  height: 80;
+
+}
+.main-containet{
+ 
+  background-color: rgba(166, 36, 36, 0.967); 
+  color:white;
+  text-align: center;
+}
+.content{
+  width: 80%;
+  margin: auto;
+}
+button {
+  border: 2px solid rgb(255, 255, 255);
+  width: 180px;
+  height: 50px;
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(166, 36, 36, 0.967);
+  border-radius: 10px;
+}
+
+button:hover {
+  color: rgb(2, 2, 3);
+  cursor: pointer;
+ background-color: #fff;
+}

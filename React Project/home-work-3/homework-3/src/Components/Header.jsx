@@ -8,13 +8,14 @@ export default function header() {
             <h1>Family Welleness</h1>
             <p>MASSAGE THERAPY</p>
         </div>
+        
         <div className="navbar">
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">HOME</a></li>
-                <li><a href="">HOME</a></li>
-                <li><a href="">HOME</a></li>
-                <li><a href="">HOME</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">FeQ</a></li>
+                <li><a href="">Contacts</a></li>
             
             </ul>
         </div>

@@ -3,9 +3,12 @@ header{
   margin: 0;
   padding: 0 ;
   box-sizing: border-box;
+  background: rgb(157, 134, 134); text-align: center;
 }
 .heading h1{
   color: rgba(166, 36, 36, 0.967);
+  font-size: 3rem;
+ 
 }
 .heading p{
   font-size: 18px;
@@ -83,4 +86,34 @@ button:hover {
   color: rgb(2, 2, 3);
   cursor: pointer;
  background-color: #fff;
+}
+.about{
+  width: 95%;
+  margin: auto;
+}
+.about h5{
+color: rgba(166, 36, 36, 0.967);
+font-size: 1.3rem;
+}
+hr{
+background-color: #f80000;
+
+width: 90%;
+height: 2px;
+}
+.message{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+.copy-h{
+  background-color: dimgrey;
+  text-align: center;
+  font-size: 1.5rem
+
+}
+.copy p{
+  text-align: center;
+  font-size: 20px;
 }

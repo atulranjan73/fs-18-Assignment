@@ -14,7 +14,7 @@ export default function header() {
                 <li><a href="">HOME</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
-                <li><a href="">FeQ</a></li>
+                <li><a href="">PHOTO</a></li>
                 <li><a href="">Contacts</a></li>
             
             </ul>

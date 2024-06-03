@@ -1,0 +1,59 @@
+#contact{
+    background-color: rgb(44, 109, 132);
+    border: 1px solid black;
+    width: 60vw;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+    right: -8rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+}
+
+#contact h1{
+    color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
+}
+
+#email,#video,#socials{
+    background-color: rgb(25, 87, 110);
+    margin-top:3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#email p{
+    margin: 1rem;
+    /* border: 1px solid black; */
+    background-color: rgb(14, 65, 85);
+    border-radius: 20px;
+    padding: 1rem;
+    width: fit-content
+}
+#email p span{
+    background-color: rgb(2, 33, 52);
+    padding:0.5rem 1rem;
+    color: rgb(195, 195, 57);
+}
+
+#video img{
+    margin-top: 2rem;
+}
+#socials #images{
+    margin-top: 1rem;
+}
+#socials #images img{
+    margin: 1rem;
+}
+
+#socials #images img:hover{
+    filter: drop-shadow(1px 1px 10px rgb(248, 248, 86));
+    /* box-shadow: 1px 1px 10px yellow; */
+}

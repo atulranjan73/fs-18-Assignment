@@ -1,0 +1,39 @@
+#certificates{
+    background-color: rgb(44, 109, 132);
+        border: 1px solid black;
+        width: 60vw;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        position: relative;
+        right: -8rem;
+        font-size: 1.2rem;
+        border-radius: 40px;
+    }
+
+#certificates h1{
+    color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
+
+}
+
+#certificates #main{
+    margin-top:6rem ;
+}
+#certificates #main img{
+    height: 25rem;
+    width: 29rem;
+    margin: 2rem;
+}
+
+#certificates #main .certi{
+  display: flex;
+}
+#certificates #main .certi .arrow{
+    width: 10%;
+}
+
+#certificates #main img:hover{
+   transform: scale(1.03);
+   filter: drop-shadow(1px 1px 10px rgb(158, 242, 56));
+   /* box-shadow: 10px 10px 20px yellow; */
+}

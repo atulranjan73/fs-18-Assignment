@@ -1,0 +1,37 @@
+.container{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 70%;
+    margin: auto;;
+    text-align: center;
+    border: 2px solid rebeccapurple;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+
+}
+p{
+    margin-right: 12px;
+    font-size: 24px;
+    font-weight: 700; 
+}
+input{
+    width: 60px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+button{
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    background-color: #986119;
+    color: blueviolet;
+}

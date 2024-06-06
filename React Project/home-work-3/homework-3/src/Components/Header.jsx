@@ -16,6 +16,7 @@ export default function header() {
                 <li><a href="">Services</a></li>
                 <li><a href="">PHOTO</a></li>
                 <li><a href="">Contacts</a></li>
+                <li><a href="">Contacts</a></li>
             
             </ul>
         </div>

@@ -1,0 +1,119 @@
+.navbar {
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 100vw;
+  background-color: dodgerblue;
+position: fixed;
+margin:-8px -8px;
+display: flex;
+justify-content: space-around;
+text-align: center;
+color: white;
+box-shadow: 2px 2px 22px 3px rgb(74, 1, 1);
+
+}
+.total{
+font-size: 1.2rem;
+font-weight: 900;
+}
+
+.cart-container {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cart-item {
+  width: 30%;
+  box-sizing: border-box;
+  margin-top: 70px;
+}
+
+.cart-item img {
+  width: 100%;
+
+}
+.Cardtitle ,.Cardprice{
+  margin-top:-20px;
+}
+
+.Cardimg, .Cardtitle, .Cardprice {
+  text-align: center;
+}
+.quantity{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top:-37px;
+}
+.quantity button{
+  background-color: dodgerblue;
+  height: 30px;
+  width: 30px;
+  margin-top: 17px;
+  border-radius: 10px;
+}
+.quantity button:hover{
+  background-color: rgb(11, 11, 12);
+ color: aliceblue;
+ box-shadow: 2px 2px 20px 3px dodgerblue;
+}
+.quantity p{
+  font-size: 1.4rem;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+.Cardprice{
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: rgb(106, 0, 255);
+}
+hr{
+  font-size: rem;
+  height: 2px;
+  background-color: coral;
+}
+
+.clear {
+  margin-top: 30px;
+text-align: center;
+height: 40px;
+width: 300px;
+margin-left:40% ;
+background-color: rgb(104, 104, 233);
+color: white;
+font-size: 1.4rem;
+border-radius: 10px;
+}
+.clear:hover{
+  background-color: rgb(11, 11, 12);
+  color: aliceblue;
+  box-shadow: 2px 2px 20px 3px dodgerblue;
+}
+.message{
+  position: absolute;
+  top: 30%;
+  right: 35%;
+  text-align: center;
+}
+.rm{
+  text-align: center;
+}
+.rm button{
+ 
+  background-color: rgb(255, 86, 30);
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  color: wheat;
+}
+.rm button:hover{
+ 
+  background-color: rgba(0, 7, 87, 0.767);
+  color: aliceblue;
+  box-shadow: 2px 2px 20px 3px dodgerblue;
+}

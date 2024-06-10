@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;}
+.groceryContainer{
+  /* border: 1px solid red ; */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  padding: 1rem;
+}
+form{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 1rem;
+}
+form h1{
+  text-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
+}
+form input ,button{
+  height: 30px;
+  margin: 10px;
+}
+form input{
+  padding: .5rem;
+}
+form button{
+  color: #fff;
+  border: transparent;
+  padding: .5rem;
+  border-radius: 5px;
+  background-color: dodgerblue;
+}
+.groceryList li{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding: .2rem;
+}
+.groceryList button{
+  height: 25px;
+  background-color: red;
+  color: #fff;
+  border: transparent;
+  padding: .2rem;
+  border-radius: 5px;
+}
+.listname{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

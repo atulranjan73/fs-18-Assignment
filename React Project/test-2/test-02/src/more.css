@@ -1,0 +1,23 @@
+#more{
+    background-color: rgb(44, 109, 132);
+    border: 1px solid black;
+    width: 60vw;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+    right: -8rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+}
+
+#more h1{
+    color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
+
+}
+
+#more #sideProducts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}

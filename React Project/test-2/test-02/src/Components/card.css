@@ -1,0 +1,21 @@
+#card img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    width: 46%;
+    background-color: rgb(25, 87, 110);
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 10px black;
+}
+
+#card:hover{
+    filter: drop-shadow(1px 1px 5px white);
+
+}

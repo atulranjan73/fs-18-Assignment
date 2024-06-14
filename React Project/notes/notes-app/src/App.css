@@ -1,0 +1,33 @@
+.name{
+  color: red;
+  background-color: beige;
+  text-align: center
+
+
+}
+input{
+  margin-top: 20px;
+}
+.form{
+  background-color: dodgerblue;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.btn{
+  margin-top: 20px;
+}
+button{
+  height: 30px;
+  width: 80px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+button:hover{
+  box-shadow: 2px 3px 22px 3px ;
+  cursor: pointer;
+  background-color: #fff;
+  color: rgb(9, 9, 9);
+}

@@ -8,7 +8,7 @@ function Footer(){
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.</p>
          <div className="footer-navlist">
           <ul>
-              <a href=""><li>About</li></a>
+              <a href="."><li>About</li></a>
               <a href=""><li>Careers</li></a>
               <a href=""><li>History</li></a>
               <a href=""><li>Services</li></a>

@@ -1,0 +1,24 @@
+#project{
+    background-color: rgb(44, 109, 132);
+    border: 1px solid black;
+    width: 60vw;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+    right: -8rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+}
+
+#project h1{
+    color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
+
+}
+
+#project #products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}

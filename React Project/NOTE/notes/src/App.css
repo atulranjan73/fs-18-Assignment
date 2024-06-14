@@ -1,0 +1,48 @@
+#main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+#left{
+  width: 15vw;
+  background-color: rgb(212, 212, 233);
+}
+#right{
+  flex-grow: 1;
+}
+
+#left #head{
+margin: 1rem;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+#left #head i {
+  color: rgb(3, 14, 218);
+  border: none;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+#left #new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 15vw
+}
+#left #new i{
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+}
+.selected{
+color: rgb(250, 250, 252);
+border: none;
+background-color: rgb(3, 14, 218);
+}
+#left #head i:hover{
+  color: rgb(4, 9, 121)
+}
+.selected:hover{
+  background-color: rgb(4, 9, 121);
+}

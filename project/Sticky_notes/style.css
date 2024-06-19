@@ -22,6 +22,8 @@
 }
 .textaria textarea{
     background-color: rgb(80, 201, 191);
+    height: 400px;
+    width: 400px;
 }
 
 #btn-1 {

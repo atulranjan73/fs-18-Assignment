@@ -36,3 +36,9 @@ button{
     justify-content: center;
 
 }
+button:hover{
+    cursor: pointer;
+    background-color: #08030b;
+    color: white;
+    box-shadow: 2px 2px 23px 4px yellow;
+}

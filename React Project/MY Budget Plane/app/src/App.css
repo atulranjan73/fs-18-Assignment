@@ -1,0 +1,137 @@
+/* Container styles */
+.container {
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.heading {
+  text-align: center;
+  color: #197278;
+  margin-bottom: 20px;
+}
+
+/* Main content styles */
+.main {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Output section styles */
+.output {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.output h4 {
+  color: #333333;
+  padding: 15px;
+  font-size: 1.7rem;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+}
+
+/* Result section styles */
+.result {
+  margin-bottom: 20px;
+}
+
+.result .heading h2 {
+  color: #197278;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Expense item styles */
+.results {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+}
+
+.outputname {
+  text-transform: uppercase;
+  color: #197278;
+  font-weight: bold;
+}
+
+.outputprice {
+  color: #333333;
+}
+
+/* Datalist section styles */
+.datalist {
+  margin-bottom: 20px;
+}
+
+.list_heading {
+  color: #197278;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form span {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #197278;
+}
+
+input {
+  font-size: 1.4rem;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* Button styles */
+.btn {
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #197278;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #145a5f;
+}

@@ -26,11 +26,11 @@ const Image = () => {
 
   return (
     <div className="container">
-      <h1>Image Search App</h1>
+      <h1>image search Apps </h1>
       <div className="input">
         <input
           type="text"
-          placeholder="Search Image.."
+          placeholder="search any photo......"
           onChange={handleSearch}
         />
         <button onClick={handleButtonClick}>Search</button>

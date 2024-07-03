@@ -10,7 +10,7 @@ const Quiz = () => {
     const [result, setResult] = useState(false);
 
     const Option1 = useRef(null);
-    const Option2 = useRef(null);
+    const Option2 = useRef(null)
     const Option3 = useRef(null);
     const Option4 = useRef(null);
 

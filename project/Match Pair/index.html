@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match the Pair Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <navigation-bar>
+    <a slot="left" href="/frontend-mini-challenges/#/javascript/" class="back">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path>
+      </svg>
+    </a>
+  </navigation-bar>
+  <div class="container text-center relative">
+    <div class="game game-front grid"></div>
+    <div class="game game-back grid" style="display: none;"></div>
+    <h2>Attempts: <output>0</output></h2>
+    <button class="btn btn-primary restart">Restart</button>
+  </div>
+
+</body>
+<script src="scripts.js"></script>
+</html>

@@ -1,0 +1,105 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tabs button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add New Person Section */
+  .add-new-person {
+    text-align: center;
+  }
+  
+  .add-new-person h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-new-person button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-new-person table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .add-new-person th, .add-new-person td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .add-new-person th {
+    background-color: #f2f2f2;
+  }
+  
+  .add-new-person tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .add-new-person input {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-new-person button {
+    margin: 0 5px;
+  }
+  
+  /* Retrieve Information Section */
+  .retrieve-information {
+    text-align: center;
+  }
+  
+  .retrieve-information h2 {
+    margin-bottom: 20px;
+  }
+  
+  .retrieve-information
+  
